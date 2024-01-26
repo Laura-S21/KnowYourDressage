@@ -20,21 +20,29 @@ const MenuItems = ({ items, depthLevel }) => {
         };
        }, [dropdown]);
 
+
   return (
-    <li className="menu-items"  ref={ref}>
+    <li to={items.url} className="menu-items" ref={ref}>
       {items.submenu ? (
         <>
-          <button
+          <div
             type="button" aria-haspopup="menu"
             aria-expanded={dropdown ? "true" : "false"}
             onClick={() => setDropdown((prev) => !prev)}
+            onMouseEnter={() => setDropdown(true)}
+            onMouseLeave={() => setDropdown(false)}
           >
+            <button onClick={items.url === "/routine" ? (e) => {e.preventDefault()} : undefined}>
             {items.title}{' '}
-          </button>
-          <Dropdown
+            </button>
+            <Dropdown
             submenus={items.submenu}
             dropdown={dropdown}
+            onMouseEnter={() => setDropdown(true)}
+            onMouseLeave={() => setDropdown(false)}
           />
+          </div>
+          
         </>
       ) : (
         <a href={items.url}>{items.title}</a>

@@ -1,0 +1,15 @@
+.footer {
+    background-color: $color-primary;
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    max-width: 1920px;
+
+    &__text {
+        color: white;
+    }
+}

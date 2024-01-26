@@ -1,0 +1,23 @@
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    height: 100vh;
+    max-width: 1920px;
+    margin: 0;
+    position: relative;
+    background-color: $color-primary;
+    background-image: url("../../assets/BG-IMG.jpg");
+    background-size: 2000px;
+    background-position-x: -150px;
+    background-position-y: -630px;
+    background-repeat: no-repeat;
+    
+}
+
+.bg-screen {
+    background-color: white;
+    opacity: 50%;
+    position: absolute;
+    top: 60px;
+    bottom: 60px;
+    width: 100%;
+}

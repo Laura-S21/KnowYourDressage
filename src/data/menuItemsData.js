@@ -1,7 +1,7 @@
 export const menuItemsData = [
     {
         title: 'Accueil',
-        url: '/accueil'
+        url: '/'
     },
     {
       title: 'Club',

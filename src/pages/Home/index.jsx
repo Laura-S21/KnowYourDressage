@@ -1,10 +1,10 @@
-
+import Background from "../../components/Background/index"
 
 
 function Home() {
     return (
         <>
-        
+            <Background />
         </>
     )
 }

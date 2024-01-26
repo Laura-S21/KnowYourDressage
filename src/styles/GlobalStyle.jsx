@@ -4,15 +4,8 @@ const StyledGlobalStyle = createGlobalStyle `
 
 html {
     margin: auto;
+    max-width: 100vw;
 }
-
-body {
-    font-family: 'Be Vietnam Pro', sans-serif;
-    max-width: 1920px;
-    background-color: #272728;
-    margin: 0;
-}
-
 `
 
 function GlobalStyle() {
