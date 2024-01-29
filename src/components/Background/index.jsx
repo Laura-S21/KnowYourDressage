@@ -1,7 +1,7 @@
 function Background() {
     return (
         <>
-            <div className="bg-screen"></div>
+            <div className="bg-screen-light"></div>
         </>
     )
 }

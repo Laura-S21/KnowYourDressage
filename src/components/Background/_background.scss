@@ -13,9 +13,18 @@ body {
     
 }
 
-.bg-screen {
+.bg-screen-light {
     background-color: white;
     opacity: 50%;
+    position: absolute;
+    top: 60px;
+    bottom: 60px;
+    width: 100%;
+}
+
+.bg-screen-dark {
+    background-color: black;
+    opacity: 60%;
     position: absolute;
     top: 60px;
     bottom: 60px;
