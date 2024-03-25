@@ -7,6 +7,7 @@ import Header from './components/Header';
 import Footer from './components/Footer/index';
 import './_index.scss';
 import GlobalStyle from './styles/GlobalStyle';
+import DressageRoutines from './components/DressageRoutines';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,6 +18,7 @@ root.render(
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        
         <Route path="/about" element={<About />} />
       </Routes>
       <Footer />

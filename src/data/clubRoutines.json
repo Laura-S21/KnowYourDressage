@@ -1,0 +1,42 @@
+[
+    {
+        "id": "club2GP",
+        "name": "Club 2 GP",
+        "routine": [
+                [
+                    {
+                        "letters": "AB",
+                        "movement": "entry",
+                        "pace": "workingTrot"
+                    },
+                    {
+                        "letters": "X",
+                        "movement": "nod",
+                        "pace": "halt"
+                    },
+                    {
+                        "letters": "XC",
+                        "movement": "transition",
+                        "pace": "workingTrot"
+                    }
+                ],
+                [
+                    {
+                        "letters": "C",
+                        "movement": "leftRein",
+                        "pace": "workingTrot"
+                    },
+                    {
+                        "letters": "HS",
+                        "movement": "leftRein",
+                        "pace": "workingTrot"
+                    },
+                    {
+                        "letters": "S",
+                        "movement": "circle12",
+                        "pace": "workingTrot"
+                    }
+                ]
+        ]
+    }
+]

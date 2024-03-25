@@ -16,6 +16,10 @@
         margin: 0;
         text-decoration: none;
         color: white;
+
+        &:hover {
+            border-bottom: 2px solid white;
+        }
     }
 
     &__logo {

@@ -1,0 +1,15 @@
+{
+    "halt": "Arrêt",
+    "collectedWalk": "Pas rassemblé",
+    "mediumWalk": "Pas moyen",
+    "extendedWalk": "Pas allongé",
+    "collectedTrot": "Trot rassemblé",
+    "workingTrot": "Trot de travail",
+    "extendTrot": "Allonger le trot",
+    "mediumTrot": "Trot moyen",
+    "extendedTrot": "Trot allongé",
+    "collectedCanter": "Galop rassemblé",
+    "workingCanter": "Galop de travail",
+    "mediumCanter": "Galop moyen",
+    "extendedCanter": "Galop allongé"
+}
